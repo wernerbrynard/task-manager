@@ -1,27 +1,33 @@
-# TaskManager
+# Task Manager Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+This is a dynamic task management application built with Angular. The application allows users to add, edit, delete, and manage tasks efficiently. It uses Angular Material components for the user interface and RxJS for state management.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add, edit, delete tasks
+- Filter and sort tasks
+- Mark tasks as completed
+- Responsive UI with Angular Material
+- State management with RxJS
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- Node.js (>=14.x)
+- Angular CLI (>=12.x)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+1. Clone the repository
+2. Navigate to the project directory
+3. Install dependencies: `npm install --legacy-peer-deps`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Running the Application
 
-## Running end-to-end tests
+1. Start the development server: `ng serve`
+2. Open your browser at `http://localhost:4200`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Building the Application
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Build for production: `ng build`
